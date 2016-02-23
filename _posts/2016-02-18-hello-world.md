@@ -2,7 +2,7 @@
 layout: postlayout
 title: Git学习及下载资源
 thumbimg: 28091602_aRPU.png
-categories: [life]
+categories: [lige]
 tags: [Git]
 ---
 
