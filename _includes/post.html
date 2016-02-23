@@ -1,11 +1,12 @@
 <div class="page-header">
-  <h1>{{ page.title }} {% if page.tagline %}<small>{{page.tagline}}</small>{% endif %}</h1>
+  <h1 style="text-align:center">{{ page.title }} {% if page.tagline %}<small>{{page.tagline}}</small>{% endif %}</h1>
 </div>
 	
 <article>
 
 	<div class="col-sm-12">
-  	<small>
+  	<p align="right">
+	<small>
 	   {% assign d = page.date | date: "%d" | plus:'0' %}
 	   {{ page.date | date: "%B" }} 
 	   {% case d %}
@@ -16,6 +17,7 @@
 	   {% endcase %}
 	   {{ page.date | date: "%Y" }}
 	 </small>
+	 </p>
 	  <div class="article_body" id="article_body">
 	  {{ content }}
 	  </div>
