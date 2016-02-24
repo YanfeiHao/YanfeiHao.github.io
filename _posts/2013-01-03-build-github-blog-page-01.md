@@ -42,15 +42,16 @@ jekyll本身基于`Ruby`，它实际上也可以看成是一种模板引擎liqui
 
 ![]({{ site.BASE_PATH }}/assets/img/build-github-blog-page-01-img0.png)
 
-1. 利用本地编辑器编写博客后维护网站其他页面
-2. 使用`Jekyll-Bootstrap`在本地测试网站功能
-3. 使用`Git`客户端工具上传模板和页面文件
-4. Git Server会用jekyll转化你的模板，并生成静态页面
+1. 本地编辑器Notepad++、vim、MarkdownPad等编写以及修订相应博客页面
+2. `Jekyll-Bootstrap`在本地测试页面相应内容以及网站功能
+3. `Git`客户端工具上传模板和页面文件到Github仓库
+4. Git Server用自身jekyll转化上传模板和页面，生成静态页面
 
 ## 所需技能 ##
 
 由此可见，你至少需要具备下面技能：
 
+- Markdown写作语法
 - 对`Git`源代码管理原理的认识，可以参考这里：[Git学习资源]({% post_url 2013-01-03-git-resource %})
 - 逐步掌握jekyll
 - 基本的HTML、CSS、JS技术能力
